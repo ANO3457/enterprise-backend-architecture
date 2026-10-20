@@ -1,0 +1,38 @@
+{
+  "name": "enterprise-backend-architecture",
+  "version": "1.0.0",
+  "description": "High-performance enterprise backend system featuring distributed locking, resilient queues, OAuth2 security, and multi-tier database replication.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Running test suite...\" && exit 0"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "distributed-systems",
+    "redis",
+    "redlock",
+    "bullmq",
+    "architecture",
+    "security"
+  ],
+  "author": "ANO3457",
+  "license": "MIT",
+  "dependencies": {
+    "bullmq": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "ioredis": "^5.4.1",
+    "winston": "^3.14.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
