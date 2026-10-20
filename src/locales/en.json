@@ -1,0 +1,7 @@
+{
+  "welcome": "Welcome",
+  "order": {
+    "success": "Your order has been placed successfully.",
+    "failed": "An error occurred during payment."
+  }
+}
