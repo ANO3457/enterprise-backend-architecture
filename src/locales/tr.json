@@ -1,0 +1,7 @@
+{
+  "welcome": "Hoş Geldiniz",
+  "order": {
+    "success": "Siparişiniz başarıyla alındı.",
+    "failed": "Ödeme sırasında bir hata oluştu."
+  }
+}
